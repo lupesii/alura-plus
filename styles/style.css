@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --cor-principal: #00030c;
+    --cor-secundaria: #c0c0c0;
+    --cor-botao: #167bf7;
+    --cor-branco: #ffffff;
+
+    --font-padrao: 'Inter', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--cor-principal) ;
+    color: var(--cor-branco);
+}
+.secao-inicial{
+    height: 100vh;
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.conteiner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.conteiner__div{
+    margin: 0 8rem;
+    text-align: center;
+}
+
+.secao__titulo{
+    font: normal 700 1.75rem var(--font-padrao);
+}
+
+.secao-inicial__imagem{
+    margin: 1rem 0 2rem 0;
+}
+
+.secao-inicial__botao{
+    font: normal 400 1rem var(--font-padrao);
+    text-align: center;
+    color: var(--cor-letra);
+    text-decoration: none;
+
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.botao-secundario{
+    border: 3px solid var(--cor-branco);
+    background-color: transparent;
+}
+
+.secao__texto{
+    font: normal 400 0.75rem var(--font-padrao);
+}
+
+/* Seção plataformas */
+
+.secao-plataformas{
+    margin: 0 10rem;
+}
+
+.secao__subtitulo{
+    font: normal 700 3rem var(--font-padrao);
+    margin-bottom: 0.15rem;
+}
+
+.texto-secundario{
+    font-size: 1rem;
+}
+
+.secao-plataformas__imagem{
+    width: 60%;
+}
