@@ -203,4 +203,8 @@ body{
     .rodape__ul li{
         margin-bottom: 1%;
     }
+
+    .rodape__texto{
+        margin: 0 1rem;
+    }
 }
