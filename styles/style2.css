@@ -70,3 +70,72 @@ body{
     font: normal 400 0.75rem var(--font-padrao);
     text-align: center;
 }
+
+@media screen {
+    .secao-inicial{
+        background-image: none;
+        margin: 2rem 2rem;
+    }
+
+    .conteiner{
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .secao-secundaria{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .secao-plataformas__imagem{
+        width: 90%;
+    }
+
+    .imagem-secundaria{
+        width: 100%;
+    }
+
+    .secao__subtitulo{
+        font: normal 700 2rem var(--font-padrao);
+        text-align: center;
+        width: auto;
+        margin: 5%;
+    }
+
+    .secao__texto{
+        width: auto;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .container__secao-secundaria{
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .botao-telas{
+        display: inline-block;
+        margin: 0;
+        margin-left: 5%;
+    }
+
+    .dispositivos-ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape{
+        text-align: center;
+        margin: 5rem;
+        
+    }
+
+    .rodape__img{
+        width: auto;
+    }
+}
+}

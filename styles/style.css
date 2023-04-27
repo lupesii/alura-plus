@@ -160,3 +160,47 @@ body{
     font: normal 400 0.8rem var(--font-padrao);
     margin: .4rem 0;
 }
+
+@media screen and (max-width:820px) {
+    .conteiner{
+        display: block;
+        margin: 1rem;
+        margin-bottom: 0;
+        background-image: none;
+    }
+
+    .conteiner__div{
+        margin: 0;
+    }
+
+    .secao-secundaria{
+        text-align: center;
+    }
+
+    .conteiner2{
+        height: 90vh;
+    }
+
+    .secao-dispositivos{
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .dispositivos-ul{
+        display: block;
+        margin-bottom: 7%;
+    }
+
+    .rodape__img{
+        width: auto;
+    }
+    
+    .rodape__ul{
+        display: block;
+        margin: 1% 0;
+    }
+
+    .rodape__ul li{
+        margin-bottom: 1%;
+    }
+}
