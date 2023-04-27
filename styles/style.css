@@ -173,6 +173,10 @@ body{
         margin: 0;
     }
 
+    .secao-inicial__imagem{
+        width: 60vw;
+    }
+
     .secao-secundaria{
         text-align: center;
     }
