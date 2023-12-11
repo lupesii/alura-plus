@@ -21,6 +21,9 @@
 
 O Alura Plus é um projeto de um curso da própria Alura, ele foi concebido com a ideia de exercitar posicionamento de itens através de grid e flexbox. Ele possui apenas fins didáticos.
 
+https://github.com/lupesii/alura-plus/assets/51518452/2aa1728e-be1d-4707-bd31-9ba5c54bb3a8
+
+
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - `Display: Flex`: O display flex foi utilizado no site em geral, graças a ele foi possivel dimensionar os itens do sites de forma flexivel
